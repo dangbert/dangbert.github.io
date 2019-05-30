@@ -1,0 +1,83 @@
+<!-- (HOME PAGE) -->
+{{ partial "head.html" }}
+<body>
+    {{ partial "header.html" . }}
+    <link rel="stylesheet" href="/css/home.css" type="text/css">
+    <!-- TODO: remove bootstrap dependency? -->
+    <!-- TODO: make this page markdown like the original content/_index.md -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+
+    <!-- ABOUT ME: -->
+    <br><br><br>
+    <div class="container profile-container">
+        <div class="row">
+            <!-- https://medium.freecodecamp.org/learn-the-bootstrap-4-grid-system-in-10-minutes-e83bfae115da -->
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <img src="/images/profile.png" class="profile-img"/>
+            </div><!-- .col -->
+
+            <div class="col-sm-12 col-md-12 col-lg-8">
+                <h2 class="center-medium">Daniel Engbert</h2>
+                <p>
+                I am a software developer from Baltimore passionate about tech, education, and travel.
+                <br>
+                <p style="margin-bottom: 0px">Although specializing in Full Stack Web Development, I have also enjoyed dabbling in:
+                </p>
+                <ul>
+                    <li>Robotics</li>
+                    <li>Computer Vision & Neural Networks</li>
+                    <li>Computer Graphics</li>
+                    <li>Game Development</li>
+                </ul>
+
+                <div id="social-buttons">
+                    {{with .Site.Author.resumeurl}}<a href="{{.}}" target="_blank" class="link-button document">
+                        <svg class="icon icon-document">
+                            <use xlink:href="/images/icons.svg#icon-document"></use>
+                        </svg>
+                        Resume
+                    </a>{{end}}
+
+                    {{with .Site.Author.github}}<a href="https://github.com/{{.}}" class="link-button github">
+                        <svg class="icon icon-github">
+                            <use xlink:href="/images/icons.svg#icon-github"></use>
+                        </svg>
+                        GitHub
+                    </a>{{end}}
+
+                    {{with .Site.Author.email }}<a href="mailto:{{.}}" class="link-button email">
+                        <svg class="icon icon-mail">
+                            <use xlink:href="/images/icons.svg#icon-mail"></use>
+                        </svg>
+                        Email
+                    </a>{{end}}
+
+                    <!--
+                    {{with .Site.Author.linkedin }}<a href="https://linkedin.com/in/{{.}}" class="link-button linkedin">
+                        <svg class="icon icon-email">
+                            <use xlink:href="/images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                        LinkedIn
+                    </a>{{end}}
+                    -->
+
+                </div>
+
+            </div><!-- .col -->
+        </div><!-- .row -->
+    </div>
+
+    <!-- TODO: MY PROJECTS -->
+    <br><br>
+    <!--
+    <div class="container projects-container">
+        <div class="row center-medium">
+            <div class="col-12">
+                <h2>Projects</h2>
+            </div>
+        </div>
+    </div>
+    -->
+
+</body>
+</html>

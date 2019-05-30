@@ -1,0 +1,46 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+header {
+    margin: 25px 0px 25px 0px;
+    text-align: center;
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        margin-top: 12px !important;
+    }
+    header a {
+        padding: 10px 0px 5px 0px !important;
+    }
+}
+
+header a, header a:hover {
+    margin: 0px 12px 0px 12px;
+    padding: 10px 0px 5px 0px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.35s;
+
+    text-align: center;
+    text-decoration: none;
+
+    /*
+    font-family: "HelveticaNeueLTPro-Md";
+    color: #2f2f2f;
+    font-size: 12px;
+    letter-spacing: 0.08rem;
+    text-transform: uppercase;
+    color: #2f2f2f;
+    */
+    font-size: 18px;
+    color: #0087bd;
+    color: #009f6b
+}
+
+header a.current-menu-item,
+header a:hover {
+    /*border-color: #2f2f2f;*/
+    border-color: #c40233;
+}
+/*------------------------------------------------------------*/

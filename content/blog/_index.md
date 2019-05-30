@@ -1,8 +1,7 @@
 ---
-title: Danny Guo · Blog
+title: Blog | engbert.me
 ---
 
 # Blog
 
-You can [search](/search) for a post, or [subscribe](/newsletter) for future
-posts.
+You can also [search](/search) for a post.

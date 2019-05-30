@@ -1,17 +1,19 @@
 author:
-  email: danny@dannyguo.com
-  github: dguo
-  name: Danny Guo
-  twitter: dannyguo
-baseURL: https://www.dannyguo.com/
-disqusShortname: dannyguo
+  name: Daniel Engbert
+  resumeurl: /resume.pdf
+  email: end1@umbc.edu
+  github: dangbert
+  linkedin: danielengbert
+  #twitter: <username>
+baseURL: https://www.engbert.me/
+#disqusShortname: dannyguo
 enableRobotsTXT: true
-googleAnalytics: UA-90320718-1
+#googleAnalytics: UA-90320718-1
 languageCode: en-us
 pygmentsCodefences: true
 pygmentsStyle: monokai
 rssLimit: 20
-title: Danny Guo
+title: Daniel Engbert
 
 outputFormats:
   Algolia:
@@ -29,4 +31,5 @@ outputs:
     - Algolia
 
 params:
+  # TODO:
   sourceCodeRepo: https://github.com/dguo/dguo.github.io/blob/master

@@ -20,12 +20,14 @@
             </svg>
             Email
         </a>{{end}}
-    </p>
-
-    <p>
-        Encrypt messages with my
-        <a href="/keys">key</a>
-        if they must be secure.
+        <!--
+        {{with .Site.Author.linkedin }}<a href="https://linkedin.com/in/{{.}}" class="link-button linkedin">
+            <svg class="icon icon-email">
+                <use xlink:href="/images/icons.svg#icon-linkedin"></use>
+            </svg>
+            LinkedIn
+        </a>{{end}}
+        -->
     </p>
 
     <p>
@@ -36,11 +38,12 @@
         </script>
         {{ .Site.Author.name }}
     </p>
-
     <p>
         This content is licensed under
         <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> and
+        <!-- TODO: update this link: -->
      <a href="https://github.com/dguo/dguo.github.io">
             hosted on GitHub</a>.
     </p>
+
 </footer>

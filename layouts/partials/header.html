@@ -1,15 +1,8 @@
-<header>
-    <p class="title">
-        Danny Guo | 郭亚东
-    </p>
-
-    <div class="menu">
-        <a href="/">home</a>
-        &middot;
-        <a href="/about">about</a>
-        &middot;
-        <a href="/blog">blog</a>
-        &middot;
-        <a href="/projects">projects</a>
-    </div>
+{{ $loc := index (split .URL "/") 1 }}
+{{/* https://aaronlauterer.com/blog/2017/02/hugo-get-last-and-first-element-from-url/ */}}
+<header class="">
+        <!-- use current location to ensure correct one is highlighted -->
+        <a href="/"          class="{{ if eq $loc "" }} current-menu-item {{ end }}">Home</a>
+        <a href="/blog"      class="{{ if eq $loc "blog" }} current-menu-item {{ end }}">Blog</a>
+        <a href="/notes"     class="{{ if eq $loc "notes" }} current-menu-item {{ end }}">Notes</a>
 </header>

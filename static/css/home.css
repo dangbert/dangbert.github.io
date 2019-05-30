@@ -1,0 +1,55 @@
+.profile-img {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* https://getbootstrap.com/docs/4.0/layout/grid/#grid-options */
+/* for screens <= size small */
+@media screen and (max-width: 576px) {
+    .profile-img {
+        max-width: 175px !important;
+    }
+}
+/* for screens <= size medium */
+@media screen and (max-width: 991px) {
+    .center-medium {
+        text-align: center;
+    }
+    .profile-img {
+        margin-top: -20px;
+        max-width: 250px;
+    }
+}
+/* for screens >= size large */
+@media screen and (min-width: 992px) {
+    .profile-img {
+        max-width: 300px;
+        width: 90% !important;
+        padding-right: 10%;
+    }
+}
+
+.profile-links a {
+    display: table-cell !important;
+    padding-right: 20px;
+}
+
+.profile-links a button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.profile-links a i {
+    /* works with table-cell to center vertically */
+    vertical-align: middle;
+}
+
+
+/* cancel out bootstrap stuff that affects social buttons */
+#social-buttons a:hover {
+    text-decoration: none !important;
+    color: #fff !important;
+}

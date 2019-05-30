@@ -82,6 +82,7 @@ a {
 
 /* Animated link underline on hover
    Adapted from https://codepen.io/shshaw/details/pdyJBW */
+/*
 a:not(.anchor):not(.link-button):not(.link-image):not(.ais-pagination--link) {
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
@@ -94,6 +95,7 @@ a:not(.anchor):not(.link-button):not(.link-image):not(.ais-pagination--link):hov
 a:not(.anchor):not(.link-button):not(.link-image):not(.ais-pagination--link):focus {
   background-size: 100% 2px;
 }
+*/
 
 .icon-link {
   font-size: 0.7em;
@@ -115,11 +117,6 @@ code:not([data-lang]) {
   margin: auto;
   padding-left: 10px;
   padding-right: 10px;
-}
-
-header {
-  color: #c40233;
-  margin: 25px 0px;
 }
 
 hr {
@@ -267,4 +264,20 @@ button:hover {
 
 .email:hover {
   background-color: #920126;
+}
+
+.linkedin {
+    background-color: #0079b0;
+}
+
+.linkedin:hover {
+  background-color: #005b85;
+}
+
+.document {
+    background-color: #17a2b8;
+}
+
+.document:hover {
+    background-color: #138496;
 }
