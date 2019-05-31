@@ -1,8 +1,8 @@
 {
-    "name": "dannyguo.com",
+    "name": "engbert.me",
     "version": "1.0.0",
-    "repository": "https://github.com/dguo/dguo.github.io",
-    "author": "Danny Guo",
+    "repository": "https://github.com/dangbert/dangbert.github.io",
+    "author": "Daniel Engbert",
     "private": true,
     "scripts": {
         "lint": "yarn lint:css && yarn lint:html && yarn lint:js && yarn lint:md",
@@ -16,7 +16,7 @@
         "atomic-algolia": "^0.3.17",
         "eslint": "^5.11.0",
         "htmlhint": "^0.10.1",
-        "markdownlint-cli": "^0.13.0",
+        "markdownlint-cli": "^0.16.0",
         "stylelint": "^9.9.0",
         "stylelint-config-recommended": "^2.1.0"
     },

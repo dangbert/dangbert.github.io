@@ -8,7 +8,7 @@ author:
 baseURL: https://www.engbert.me/
 #disqusShortname: dannyguo
 enableRobotsTXT: true
-#googleAnalytics: UA-90320718-1
+googleAnalytics: UA-141197254-1
 languageCode: en-us
 pygmentsCodefences: true
 pygmentsStyle: monokai
@@ -31,5 +31,4 @@ outputs:
     - Algolia
 
 params:
-  # TODO:
-  sourceCodeRepo: https://github.com/dguo/dguo.github.io/blob/master
+  sourceCodeRepo: https://github.com/dangbert/dangbert.github.io/blob/master
