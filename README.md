@@ -7,6 +7,7 @@ Hello! My website is available at https://engbert.me
 ## Tech Stack
 
 * [Algolia](https://algolia.com/) for search functionality
+  * [tutorial](https://forestry.io/blog/search-with-algolia-in-hugo/)
 * [Disqus](https://disqus.com/) for comments in posts
 * [Google Analytics](https://www.google.com/analytics) for analytics
 * [Google Fonts](https://fonts.google.com/) for the [Open Sans](https://fonts.google.com/specimen/Open+Sans) font
