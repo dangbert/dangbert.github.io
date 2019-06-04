@@ -1,4 +1,5 @@
 # Daniel Engbert's personal website
+Based on [dguo's site](https://github.com/dguo/dguo.github.io/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a3dceeb5-537a-444a-8bd1-e5d3487b5620/deploy-status)](https://app.netlify.com/sites/nifty-goodall-e57726/deploys)
 

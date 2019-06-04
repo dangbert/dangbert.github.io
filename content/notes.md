@@ -5,7 +5,7 @@ title: Notes | engbert.me
 # Notes
 <!-- TODO: perhaps add links to code for respective classes as well -->
 
-Collection of my personal notes (as PDFs) on various subjects[.](https://drive.google.com/drive/u/1/folders/0B39jHHEzDj3GcnNUeU94OHdsYWc)
+Collection of my personal notes on various subjects[.](https://drive.google.com/drive/u/1/folders/0B39jHHEzDj3GcnNUeU94OHdsYWc)
 
 ## Math
 * [Calc 1 & 2](https://drive.google.com/open?id=0B39jHHEzDj3GSHA4amdJQS15YWc)
