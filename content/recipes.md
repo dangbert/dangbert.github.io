@@ -51,7 +51,7 @@ title: Recipes | engbert.me
 #### Simple Bread
 * Mix:
   * 2.25 cup warm water
-  * 1/4 oz yeast
+  * 1 tbsp yeast
   * 3 tbsp sugar
   * 2 tbsp canola oil
   * 1 tbsp salt
