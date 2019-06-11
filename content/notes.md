@@ -7,6 +7,8 @@ title: Notes | engbert.me
 
 Collection of my personal notes on various subjects[.](https://drive.google.com/drive/u/1/folders/0B39jHHEzDj3GcnNUeU94OHdsYWc)
 
+Additionally, code is available [here](https://github.com/dangbert/college) for my class projects.
+
 ## Math
 * [Calc 1 & 2](https://drive.google.com/open?id=0B39jHHEzDj3GSHA4amdJQS15YWc)
 * [Calc 3](https://drive.google.com/open?id=0B39jHHEzDj3GZTB3S3lMdkhjTkk)
