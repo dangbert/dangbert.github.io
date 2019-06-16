@@ -7,13 +7,19 @@ title: Recipes | engbert.me
 ---
 ## Meals:
 
-#### Chile
-* brown ~2 lb. of ground beef in pan
+#### Chile [3200 cal]
+* brown ~2.5 lb. of ground beef in pan
 * add:
-  * onions and 2 packets of chili seasoning mix
+  * 2-3 onions and 2 packets of chili seasoning mix
   * two 14.5 oz can of diced tomatoes (or 32 oz of tomato sauce)
   * two 15 oz cans of kidney beans (undrained)
 * bring to boil, cover, and lower heat to let SIMMER for 10 min (stir occasionally)
+
+#### 15 Bean Soup [2800 cal]
+* Hurst's 15 Bean Soup Package (20 oz)
+* 14 oz chopped ham
+* 2 onions
+* (follow "tradional recipe" on package)
 
 #### Sloppy Joes
 * Heat and mix the following:
@@ -21,9 +27,14 @@ title: Recipes | engbert.me
   * chopped onions and jalapenos
   * one 24 oz can of sloppy joe sauce
 
-#### Burgers
-* mix meat with onions, oats, 1 egg, mint
-* cook in a pan OR in oven at 375° for 20 min
+#### Burgers [2800 cal, ~10 burgers]
+* mix:
+  * 2.5lb ground beef
+  * ~2 onions
+  * ~2 cup oats
+  * 1 egg
+  * mint, salt, etc
+* cook patties in a pan OR in oven at 375° for 20 min
 
 #### Chicken Breast
 * bake at 400° for about 30 min
@@ -39,7 +50,7 @@ title: Recipes | engbert.me
 * set to low heat (1.5), wait 20-25 min
 
 #### Hard Boiled Eggs
-* Place eggs in boiling water for 8.5 minutes.
+* Place eggs in boiling water for 9 minutes.
 
 #### Baked Potatoes
 * wash and poke holes in potatoes with fork
@@ -48,8 +59,8 @@ title: Recipes | engbert.me
 ---
 ## Baking:
 
-#### Simple Bread
-* Mix:
+#### Simple Bread [2900 cal, ~2 loaves]
+* mix:
   * 2.25 cup warm water
   * 1 tbsp yeast
   * 3 tbsp sugar
