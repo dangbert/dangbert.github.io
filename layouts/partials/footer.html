@@ -31,18 +31,12 @@
     </p>
 
     <p>
-        &copy;
+        <a href="{{ .Site.Params.sourceCodeRepo }}/content/{{ .File.Path }}" style="color: #ee7f2d; text-decoration: none;" target="_blank">&copy;</a>
         <span id="copyright-year">{{ now.Year }}</span>
         <script type="text/javascript">
             document.getElementById('copyright-year').textContent = new Date().getFullYear();
         </script>
         {{ .Site.Author.name }}
-    </p>
-    <p>
-        This content is licensed under
-        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> and
-     <a href="https://github.com/dangbert/dangbert.github.io">
-            hosted on GitHub</a>.
     </p>
 
 </footer>
