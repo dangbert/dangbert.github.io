@@ -14,6 +14,7 @@ f14e2b4 2019-07-23 Daniel Engbert created a.txt
 If you want to combine the 3 latest commits into one commit, then perform the following:
 
 ````bash
+git pull   # (if applicable)
 git rebase HEAD~3 --interactive
 #git rebase f14e2b4 --interactive   # alternative (does the same thing)
 ````
@@ -35,8 +36,8 @@ s b98b227 created b.txt
 s 3a6846f edited a.txt and b.txt 
 ````
 
-* Then save the file. A new file will open, replace its contents with whatever message you want for the combined commit and save.
-* If an error is reported after saving the first file, you're options are:
+* Then save the file. A new file will open, replace its contents with whatever message you want for the combined commit and save.  Your selected commits should now be combined into one.
+* Note: if an error is reported after saving the first file, your options are:
 
 ````bash
 # edit the file again to fix the error
