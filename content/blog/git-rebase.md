@@ -11,10 +11,15 @@ f14e2b4 2019-07-23 Daniel Engbert created a.txt
 912bb66 2019-07-23 Daniel Engbert inital commit
 ````
 
-If you want to combine the 3 latest commits into one commit, then perform the following:
+If you want to combine the 3 latest commits into one commit like this:
+````
+896afa6 2019-07-23 Daniel Engbert (HEAD -> master) created files a.txt and b.txt
+912bb66 2019-07-23 Daniel Engbert inital commit
+````
 
+then perform the following:
 ````bash
-git pull   # (if applicable)
+git pull # (if applicable)
 git rebase HEAD~3 --interactive
 #git rebase f14e2b4 --interactive   # alternative (does the same thing)
 ````
