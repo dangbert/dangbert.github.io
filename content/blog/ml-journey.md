@@ -7,6 +7,9 @@ This page serves as a plan / means of tracking my progress in learning about mac
 
 ### Currently Doing:
 * Reading, taking notes and coding the examples in: [neural networks and deep learning](http://neuralnetworksanddeeplearning.com/chap3.html)
+  * Test my idea (combining hidden layers in separately trained nets).
+  * (After finishing book): test my bootstrap net idea.
 
 ### Future Plan:
+* Read my old AP stat notes
 * Read and take notes: [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
