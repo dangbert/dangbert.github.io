@@ -40,6 +40,7 @@ title: Recipes | engbert.me
 * bake at 400° for about 30 min
 * OR 15 min on high pressure in instant pot
   * if frozen, separate pieces so it cooks right!
+  * if frozen, let sit for a few minutes before releasing pressure, use thermometer to verify internal temp > 165°
 * (pulled chicken): cook in instapot and sit until all pressure drains on its own
 
 
