@@ -5,7 +5,7 @@ title: Notes | engbert.me
 # Notes
 <!-- TODO: perhaps add links to code for respective classes as well -->
 
-Collection of my personal notes on various subjects[.](https://drive.google.com/drive/u/1/folders/0B39jHHEzDj3GcnNUeU94OHdsYWc)
+Collection of my personal notes (and external resources) on various subjects[.](https://drive.google.com/drive/u/1/folders/0B39jHHEzDj3GcnNUeU94OHdsYWc)
 
 Additionally, code is available [here](https://github.com/dangbert/college) for my class projects.
 
@@ -20,6 +20,7 @@ Additionally, code is available [here](https://github.com/dangbert/college) for 
 * [CMSC 203 - Discrete Structures](https://drive.google.com/open?id=0B39jHHEzDj3GUkVod2NHakxMMlU)
 * [CMSC 411 - Computer Architecture](https://drive.google.com/open?id=1JwBsqoSFkbqQW7goG9dhpIG0I-aukGxg)
 * [CMSC 443 - Cryptology](https://drive.google.com/open?id=1Zdg1hODLvTFkNlLtlpjgcfytN_KfSGLm)
+* [Bash - cheat sheet (external)](https://devhints.io/bash)
 
 ## Science
 * [PHYS 122 - Electricity and Magnetism](https://drive.google.com/drive/u/1/folders/1fRmRb7B-qmtQeaYT3hgD7l81eJY9g7OE)
