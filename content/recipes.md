@@ -74,12 +74,13 @@ title: Recipes | engbert.me
 * knead, sit in pan ~40 min
 * bake at 375° 30-35 min
 
-#### Banana Bread
+#### [Banana Bread](https://www.simplyrecipes.com/recipes/banana_bread/) [~2350 cal, 1 loaf]
 * mix:
   * 2-3 very ripe, mashed, bananas
+  * 1/3 cup of butter (salted or unsalted) measure, then melt
   * 1 tsp baking soda
   * pinch of salt
-  * ~3/4 cup sugar
+  * ~3/4 cup sugar (1/2 cup for less sweet, 1 cup for extra sweet)
   * 1 tsp vanilla extract
   * 1 egg
   * 1.5 cup flour
