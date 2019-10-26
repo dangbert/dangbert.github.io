@@ -77,14 +77,28 @@ title: Recipes | engbert.me
 #### [Banana Bread](https://www.simplyrecipes.com/recipes/banana_bread/) [~2350 cal, 1 loaf]
 * mix:
   * 2-3 very ripe, mashed, bananas
+  * 1.5 cup flour
+  * ~3/4 cup sugar (1/2 cup for less sweet, 1 cup for extra sweet)
   * 1/3 cup of butter (salted or unsalted) measure, then melt
+  * 1 large egg
   * 1 tsp baking soda
   * pinch of salt
-  * ~3/4 cup sugar (1/2 cup for less sweet, 1 cup for extra sweet)
   * 1 tsp vanilla extract
-  * 1 egg
-  * 1.5 cup flour
-  * bake at 350° 50-60 min 
+  * bake at 350° 50-60 min
+  
+  #### [Pumpkin Bread](https://www.onceuponachef.com/recipes/spiced-pumpkin-bread.html) [~??? cal, 1 loaf]
+* mix:
+  * 7.5 oz pumpkin puree
+  * 1 cup flour
+  * 1 cup sugar (I tried 0.8 and it wasn't super sweet)
+  * 3/4 stick unsalted butter, softened/mashed
+  * 1 large egg
+  * 1/4 tsp salt
+  * 3/4 tsp baking soda (I increased this because I'm not suring baking powder)
+  * 1/2 tsp ground cloves
+  * 1/2 tsp ground cinnamon
+  * 1/2 tsp ground nutmeg
+* bake at 350° ~55 min
 
 ### Pizza Dough
 * mix, shape into ball:
