@@ -24,3 +24,8 @@ Additionally, code is available [here](https://github.com/dangbert/college) for 
 
 ## Science
 * [PHYS 122 - Electricity and Magnetism](https://drive.google.com/drive/u/1/folders/1fRmRb7B-qmtQeaYT3hgD7l81eJY9g7OE)
+
+
+## Video / Editing
+* [ffmpeg Documentation](https://ffmpeg.org/ffmpeg.html)
+  * [ffmpeg Filters](https://ffmpeg.org/ffmpeg-filters.html)
