@@ -29,3 +29,4 @@ Additionally, code is available [here](https://github.com/dangbert/college) for 
 ## Video / Editing
 * [ffmpeg Documentation](https://ffmpeg.org/ffmpeg.html)
   * [ffmpeg Filters](https://ffmpeg.org/ffmpeg-filters.html)
+* [Learn FFmpeg libav the Hard Way](https://github.com/leandromoreira/ffmpeg-libav-tutorial#chapter-1---syncing-audio-and-video) (theory / deep techincal details of video codecs)
