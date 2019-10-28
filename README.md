@@ -19,6 +19,16 @@ Hello! My website is available at https://engbert.me
 * [Repl.it](https://repl.it/) for interactive code snippets
 * [Travis CI](https://travis-ci.org/) for continuous integration
 
+## Content
+
+* [notes](engbert.me/notes/)
+* [blog](engbert.me/blog/)
+* [recipes](engbert.me/recipes/)
+
+## TODO:
+* Make my blog/notes (fuzzy) searchable (including the PDFs in my notes, etc and use keywords stored for the handwritten notes).
+  * Overtime this content should grow and represent the breadth of what I've learned.
+
 ## Features
 
 Many of these were easy to add because of Hugo.
@@ -36,19 +46,6 @@ Many of these were easy to add because of Hugo.
 * [static syntax highlighting](https://github.com/dguo/dguo.github.io/commit/3f02ffcd82883de75ac68151b1b518b045fb390b)
 * ["Updated on" dates](https://github.com/dguo/dguo.github.io/commit/86db8a3831508876bd8836573af3e752300e07c1) for blog posts when applicable
 * unlisted posts that are only publicly available through a direct link
-
-## Content
-
-* [blog](https://www.dannyguo.com/blog/)
-* [books](https://www.dannyguo.com/books/)
-* [concerts that I've attended](https://www.dannyguo.com/about/#music)
-* [food choices](https://www.dannyguo.com/food/)
-* [GPG key](https://www.dannyguo.com/keys/)
-* [public profiles](https://www.dannyguo.com/about/#public-profiles)
-* [problems that I've noticed](https://www.dannyguo.com/problems/)
-* [projects](https://www.dannyguo.com/projects)
-* [mini blog of issues I've run into while programming](https://www.dannyguo.com/friction/)
-* [referral links](https://wwww.dannyguo.com/referrals/)
 
 ## Checklist for Publishing an Unlisted Post
 
