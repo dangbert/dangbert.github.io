@@ -74,6 +74,24 @@ title: Recipes | engbert.me
 * knead, sit in pan ~40 min
 * bake at 375° 30-35 min
 
+#### Tim's Pizza Dough [2 medium pizza crusts ~2900 calories (+toppings)]
+* mix, shape into ball:
+  * 1.5 cup water
+  * 4.5 tsp yeast
+  * 3 tsp sugar
+  * 4 tbsp olive oil
+  * 4 2/3 cup flour
+  * 1.5 tsp salt
+  * garlic powder / basil as desired
+  
+# Pie Crust:
+
+
+## Desserts:
+
+#### [Pie Crust](https://www.youtube.com/watch?v=ori979tQmWI) [2 crusts or a complete double pie crust]
+* TODO:
+
 #### [Banana Bread](https://www.simplyrecipes.com/recipes/banana_bread/) [~2350 cal, 1 loaf]
 * mix:
   * 2-3 very ripe, mashed, bananas
@@ -86,7 +104,7 @@ title: Recipes | engbert.me
   * 1 tsp vanilla extract
   * bake at 350° 50-60 min
   
-  #### [Pumpkin Bread](https://www.onceuponachef.com/recipes/spiced-pumpkin-bread.html) [~??? cal, 1 loaf]
+#### [Pumpkin Bread](https://www.onceuponachef.com/recipes/spiced-pumpkin-bread.html) [~??? cal, 1 loaf]
 * mix:
   * 7.5 oz pumpkin puree
   * 1 cup flour
@@ -99,18 +117,6 @@ title: Recipes | engbert.me
   * 1/2 tsp ground cinnamon
   * 1/2 tsp ground nutmeg
 * bake at 350° ~55 min
-
-### Pizza Dough
-* mix, shape into ball:
-  * 1.5 cup warm water
-  * 2.25 tsp yeast
-  * 1 tsp sugar
-  * 1 tsp salt
-  * 1/3 cup olive oil
-  * 4 cups flour
-* place in fridge
-* (bake at 550° 8-10 min)
-* (if frozen, let sit 30 min before using)
 
 ---
 ## Learn:
