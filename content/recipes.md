@@ -119,6 +119,12 @@ title: Recipes | engbert.me
 * bake at 350° ~55 min
 
 ---
+## Drinks:
+* [Apple cider rum punch](https://thissillygirlskitchen.com/honeycrisp-apple-cider-rum-punch/)
+  * triple the recipe for a big party
+  * one (3") cinnamon stick = 1/2 1sp ground cinnamon
+
+---
 ## Learn:
 * [Chicken fajita](https://www.delish.com/cooking/recipe-ideas/a19665622/easy-chicken-fajitas-recipe/)
 * [chipotle chicken avocado melt](https://spoonuniversity.com/recipe/chipotle-chicken-avocado-melt-how-to-make-better-than-panera)
