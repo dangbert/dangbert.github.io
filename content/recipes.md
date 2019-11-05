@@ -83,15 +83,9 @@ title: Recipes | engbert.me
   * 4 2/3 cup flour
   * 1.5 tsp salt
   * garlic powder / basil as desired
-  
-# Pie Crust:
 
 
-## Desserts:
-
-#### [Pie Crust](https://www.youtube.com/watch?v=ori979tQmWI) [2 crusts or a complete double pie crust]
-* TODO:
-
+## Baking (Desserts):
 #### [Banana Bread](https://www.simplyrecipes.com/recipes/banana_bread/) [~2350 cal, 1 loaf]
 * mix:
   * 2-3 very ripe, mashed, bananas
@@ -103,6 +97,19 @@ title: Recipes | engbert.me
   * pinch of salt
   * 1 tsp vanilla extract
   * bake at 350° 50-60 min
+  
+#### [Pie Crust](http://www.marthastewart.com/856573/basic-pie-dough-apple-pie) [2 crusts or a complete double pie crust]
+* Tips: Finely chop the butter and mix with everything except the flour in the nutribullet, then combine with the flour.
+  * Even better would be to mix half of the mix at a time (because nutribullet is not ideal for this)
+* Also I found that the dough ball was too hard after sitting in the fridge for an hour, I had to let it sit out afterwards before working it.  But it's a good recipe.
+
+#### [Apple Pie](https://www.allrecipes.com/recipe/12682/apple-pie-by-grandma-ople/)
+* I followed the recipe above (doubled for two pies) but baked it according to [this recipe](https://www.tasteofhome.com/recipes/apple-pie/) and added the spices (ginger, cinnamon, nutmeg) from that recipe as well.
+  * BUT the first pie I baked was very soupy after cutting, so the second one I left in the over for like an additional 40 minutes and then there were no issues.  (But also I may have not added enough flour when following the recipe).
+  * I used 6.5 pounds of apples between the two pies and still had almost 2 pounds of apples left.
+  * Also I should have chopped the apples much finer (the smaller the better), mine were not soft enough after baking.
+
+### [Pumpkin Pie](https://www.allrecipes.com/recipe/23439/perfect-pumpkin-pie/)
   
 #### [Pumpkin Bread](https://www.onceuponachef.com/recipes/spiced-pumpkin-bread.html) [~??? cal, 1 loaf]
 * mix:
