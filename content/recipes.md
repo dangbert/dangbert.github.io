@@ -137,3 +137,4 @@ title: Recipes | engbert.me
 * [chipotle chicken avocado melt](https://spoonuniversity.com/recipe/chipotle-chicken-avocado-melt-how-to-make-better-than-panera)
 * [lasagna](https://www.tasteofhome.com/recipes/best-lasagna/)
 * [Brazilian cheese bread](https://hilahcooking.com/pao-de-queijo/)
+* [Homemade Pop Tarts](https://www.seriouseats.com/recipes/2011/09/homemade-pop-tarts-recipe.html)
