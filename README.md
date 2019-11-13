@@ -28,6 +28,8 @@ Hello! My website is available at https://engbert.me
 ## TODO:
 * Make my blog/notes (fuzzy) searchable (including the PDFs in my notes, etc and use keywords stored for the handwritten notes).
   * Overtime this content should grow and represent the breadth of what I've learned.
+* Less-annoying anchor links (only have them appear when hovering)
+* Better copy/paste code block button? [like this](https://www.journaldev.com/15631/python-multiprocessing-example)
 
 ## Features
 
