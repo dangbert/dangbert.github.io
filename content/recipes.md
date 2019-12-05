@@ -136,6 +136,7 @@ title: Recipes | engbert.me
 
 ---
 ## Learn:
+* [Paella](https://www.allrecipes.com/recipe/84137/easy-paella/) (requires shrimp)
 * [Chicken fajita](https://www.delish.com/cooking/recipe-ideas/a19665622/easy-chicken-fajitas-recipe/)
 * [chipotle chicken avocado melt](https://spoonuniversity.com/recipe/chipotle-chicken-avocado-melt-how-to-make-better-than-panera)
 * [Greek Lentils](https://www.reddit.com/r/EatCheapAndHealthy/comments/dspkq4/greek_lentils_3_for_a_3_quarts_of_food/)
