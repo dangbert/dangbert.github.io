@@ -54,6 +54,7 @@ title: Recipes | engbert.me
 
 #### Hard Boiled Eggs
 * Place eggs in boiling water for 9 minutes.
+* OR bring eggs to boil and cool after 5 minutes of boiling
 
 #### Baked Potatoes
 * wash and poke holes in potatoes with fork
