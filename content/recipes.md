@@ -7,6 +7,12 @@ title: Recipes | engbert.me
 ---
 ## Meals:
 
+#### Indian Chicken Curry (Murgh Kari)
+* [recipe](https://www.allrecipes.com/recipe/212721/indian-chicken-curry-murgh-kari/)
+* [garlic nan recipe](https://www.allrecipes.com/recipe/270860/garlic-naan/)
+
+
+
 #### Chile [3200 cal]
 * brown ~2.5 lb. of ground beef in pan
 * add:
