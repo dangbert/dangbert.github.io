@@ -31,4 +31,5 @@ outputs:
     - Algolia
 
 params:
-  sourceCodeRepo: https://github.com/dangbert/dangbert.github.io/blob/master
+  #sourceCodeRepo: https://github.com/dangbert/dangbert.github.io/blob/master
+  sourceCodeRepo: https://github.com/dangbert/dangbert.github.io/edit/master
