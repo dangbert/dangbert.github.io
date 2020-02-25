@@ -7,15 +7,14 @@ title: Recipes | engbert.me
 ---
 ## Meals:
 
+### Chicken Stir-Fry
+* [recipe](https://www.allrecipes.com/recipe/223382/chicken-stir-fry/)
+
 #### Indian Chicken Curry (Murgh Kari)
 * [recipe](https://www.allrecipes.com/recipe/212721/indian-chicken-curry-murgh-kari/)
   * note: prep all ingredients before starting, don't drain canned tomatoes.
 * [garlic nan recipe](https://www.allrecipes.com/recipe/270860/garlic-naan/)
 * [alternative recipe to try next time](https://thefeedfeed.com/rachelgurjar/garlic-naan-with-herbs)
-
-### Chicken Stir-Fry
-* [recipe](https://www.allrecipes.com/recipe/223382/chicken-stir-fry/)
-
 
 #### Chile [3200 cal]
 * brown ~2.5 lb. of ground beef in pan
