@@ -13,6 +13,8 @@ title: Recipes | engbert.me
 * [garlic nan recipe](https://www.allrecipes.com/recipe/270860/garlic-naan/)
 * [alternative recipe to try next time](https://thefeedfeed.com/rachelgurjar/garlic-naan-with-herbs)
 
+### Chicken Stir-Fry
+* [recipe](https://www.allrecipes.com/recipe/223382/chicken-stir-fry/)
 
 
 #### Chile [3200 cal]
