@@ -69,6 +69,11 @@ title: Recipes | engbert.me
 #### Baked Potatoes
 * wash and poke holes in potatoes with fork
 * bake whole potatoes at 400° for 40 min
+* OR wash and place in instapot for 30 min with a little water
+
+#### Black beans
+* [recipe](https://www.camelliabrand.com/recipes/instant-pot-black-beans/)
+  * I cooked it in instapot for 33 min on bean/chili mode
 
 ---
 ## Baking:
