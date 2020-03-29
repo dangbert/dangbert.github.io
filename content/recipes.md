@@ -17,7 +17,7 @@ title: Recipes | engbert.me
 * [garlic nan recipe](https://www.allrecipes.com/recipe/270860/garlic-naan/)
 * [alternative recipe to try next time](https://thefeedfeed.com/rachelgurjar/garlic-naan-with-herbs)
 
-#### Chile [3200 cal]
+#### Chili [3200 cal]
 * brown ~2.5 lb. of ground beef in pan
 * add:
   * 2-3 onions and 2 packets of chili seasoning mix
