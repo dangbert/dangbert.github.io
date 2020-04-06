@@ -153,6 +153,7 @@ title: Recipes | engbert.me
 ---
 ## Learn:
 * enchiladas [Raj's mom's recipe](https://keep.google.com/u/0/#NOTE/18r-5DwDYP8VbXzFQcbABVQdmFfk3-LbKwKB5iIT9Jf-bKm1EIXPVIA5fo7J-A8rmrKnWy-qt)
+* [Lentil curry](https://www.reddit.com/r/GifRecipes/comments/fvxgt0/comment/fmkzjrv)
 * some soups
 * [Baked Ziti and Lasagna (Soprano's)](https://www.bingingwithbabish.com/recipes/ziti-lasagna)
 * [Paella](https://www.allrecipes.com/recipe/84137/easy-paella/) (requires shrimp)
