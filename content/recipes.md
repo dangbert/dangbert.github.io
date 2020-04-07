@@ -7,6 +7,21 @@ title: Recipes | engbert.me
 ---
 ## Meals:
 
+
+## chicken enchiladas
+* reference [video](https://www.youtube.com/watch?v=SaW1xVRYb-w), * [Raj's mom's recipe](https://keep.google.com/u/0/#NOTE/18r-5DwDYP8VbXzFQcbABVQdmFfk3-LbKwKB5iIT9Jf-bKm1EIXPVIA5fo7J-A8rmrKnWy-qt)
+* 2 large chicken breasts, seasoned with salt/pepper, cooked in instapot, shredded with fork after natural pressure release
+* 1 large onion chopped
+* jalepeno peppers
+* serveral garlic cloves chopped
+* cilantro
+* 1.5 cans of 28oz Red Enchilada Sauce (Old El Paso brand)
+* stuff sauteed toppings into corn tortillas (microwave or fry quickly on pan first)
+* top with black olives
+* top with shredded cheese
+* bake in oven at 375° ~15 minutes
+
+
 ### Chicken Stir-Fry
 * [recipe](https://www.allrecipes.com/recipe/223382/chicken-stir-fry/)
 
@@ -152,7 +167,6 @@ title: Recipes | engbert.me
 
 ---
 ## Learn:
-* enchiladas [Raj's mom's recipe](https://keep.google.com/u/0/#NOTE/18r-5DwDYP8VbXzFQcbABVQdmFfk3-LbKwKB5iIT9Jf-bKm1EIXPVIA5fo7J-A8rmrKnWy-qt)
 * [Lentil curry](https://www.reddit.com/r/GifRecipes/comments/fvxgt0/comment/fmkzjrv)
 * some soups
 * [Baked Ziti and Lasagna (Soprano's)](https://www.bingingwithbabish.com/recipes/ziti-lasagna)
