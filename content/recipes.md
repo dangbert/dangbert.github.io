@@ -167,6 +167,7 @@ title: Recipes | engbert.me
 
 ---
 ## Learn:
+* chicken dumplings
 * [Lentil curry](https://www.reddit.com/r/GifRecipes/comments/fvxgt0/comment/fmkzjrv)
 * some soups
 * [Baked Ziti and Lasagna (Soprano's)](https://www.bingingwithbabish.com/recipes/ziti-lasagna)
