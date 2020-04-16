@@ -167,6 +167,7 @@ title: Recipes | engbert.me
 
 ---
 ## Learn:
+* [falafel](https://www.reddit.com/r/GifRecipes/comments/g259k0/falafel_homemade_pitta/)
 * chicken dumplings
 * [Lentil curry](https://www.reddit.com/r/GifRecipes/comments/fvxgt0/comment/fmkzjrv)
 * some soups
