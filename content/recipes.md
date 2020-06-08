@@ -170,7 +170,7 @@ title: Recipes | engbert.me
 * [new bread recipe](https://www.reddit.com/r/GifRecipes/comments/gukg2n/simple_fresh_baked_sandwich_bread_the_full_measure/)
 * [falafel](https://www.reddit.com/r/GifRecipes/comments/g259k0/falafel_homemade_pitta/)
 * chicken dumplings
-* [Lentil curry](https://www.reddit.com/r/GifRecipes/comments/fvxgt0/comment/fmkzjrv)
+* [Lentil curry](https://www.recipetineats.com/lentil-curry-mega-flavour-lentil-recipe/)
 * some soups
 * [Baked Ziti and Lasagna (Soprano's)](https://www.bingingwithbabish.com/recipes/ziti-lasagna)
 * [Paella](https://www.allrecipes.com/recipe/84137/easy-paella/) (requires shrimp)
