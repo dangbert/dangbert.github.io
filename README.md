@@ -5,6 +5,11 @@ Based on [dguo's site](https://github.com/dguo/dguo.github.io/)
 
 Hello! My website is available at https://engbert.me
 
+## How to run locally
+````bash
+hugo server
+````
+
 ## Tech Stack
 
 * [Algolia](https://algolia.com/) for search functionality
