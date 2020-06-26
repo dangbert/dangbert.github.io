@@ -120,6 +120,8 @@ title: Recipes | engbert.me
 #### Sourdough bread:
 
 * [bread recipe](https://www.allrecipes.com/recipe/7156/san-francisco-sourdough-bread/?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly)
+  * Use 6 cups flour for two good sized loafs
+  * (Substituted milk for warm water)
 * [Sourdough culture creation steps](https://www.kingarthurflour.com/recipes/sourdough-starter-recipe)
   * I halved the recipe (1/2 cup flour, 1/4 cup water used at each step)
 
