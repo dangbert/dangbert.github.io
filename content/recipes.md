@@ -107,12 +107,12 @@ title: Recipes | engbert.me
 
 #### Tim's Pizza Dough [2 medium pizza crusts ~2900 calories (+toppings)]
 * mix, shape into ball:
-  * 1.5 cup warm water
-  * 4.5 tsp yeast
-  * 3 tsp sugar
-  * 4 tbsp olive oil
   * 4 2/3 cup flour
-  * 1.5 tsp salt
+  * 1.5 cup warm water
+  * 1.5 tbsp yeast
+  * 1 tbsp sugar
+  * 0.5 tbsp salt
+  * 4 tbsp olive oil
   * garlic powder / basil as desired
 * bake at 425° 13-15 min
 * let sit ~30 min
