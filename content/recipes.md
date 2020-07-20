@@ -9,7 +9,8 @@ title: Recipes | engbert.me
 
 
 ## chicken enchiladas
-* reference [video](https://www.youtube.com/watch?v=SaW1xVRYb-w), * [Raj's mom's recipe](https://keep.google.com/u/0/#NOTE/18r-5DwDYP8VbXzFQcbABVQdmFfk3-LbKwKB5iIT9Jf-bKm1EIXPVIA5fo7J-A8rmrKnWy-qt)
+* reference [video](https://www.youtube.com/watch?v=SaW1xVRYb-w)
+* [Raj's mom's recipe](https://keep.google.com/u/0/#NOTE/18r-5DwDYP8VbXzFQcbABVQdmFfk3-LbKwKB5iIT9Jf-bKm1EIXPVIA5fo7J-A8rmrKnWy-qt)
 * 2 large chicken breasts, seasoned with salt/pepper, cooked in instapot, shredded with fork after natural pressure release
 * 1 large onion chopped
 * jalepeno peppers
