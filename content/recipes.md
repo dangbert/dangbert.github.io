@@ -187,6 +187,7 @@ title: Recipes | engbert.me
 * [Greek Lentils](https://www.reddit.com/r/EatCheapAndHealthy/comments/dspkq4/greek_lentils_3_for_a_3_quarts_of_food/)
 * [lasagna](https://www.tasteofhome.com/recipes/best-lasagna/)
 * [Brazilian cheese bread](https://hilahcooking.com/pao-de-queijo/)
+* [Brigadeiro chocolate balls](https://www.allrecipes.com/recipe/24052/brigadeiro/)
 * [Homemade Pop Tarts](https://www.seriouseats.com/recipes/2011/09/homemade-pop-tarts-recipe.html)
 
 --
