@@ -97,9 +97,9 @@ title: Recipes | engbert.me
 #### Simple Bread [2900 cal, ~2 loaves]
 * mix:
   * 2.25 cup warm water
-  * 1 tbsp yeast
   * 3 tbsp sugar
   * 2 tbsp canola oil
+  * 1 tbsp yeast
   * 1 tbsp salt
   * ~6.5 cup flour
 * knead, sit ~90 min (in warm area ideally)
