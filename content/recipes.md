@@ -82,6 +82,11 @@ title: Recipes | engbert.me
 * Place eggs in boiling water for 9 minutes.
 * OR bring eggs to boil and cool after 5 minutes of boiling
 
+#### Mario's golden potatoe wedges:
+* wedge cut golden potatoes
+* season with olive oil, salt, pepper, oregano
+* bake for 45min at 415°
+
 #### Baked Potatoes
 * wash and poke holes in potatoes with fork
 * bake whole potatoes at 400° for 40 min
