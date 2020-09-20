@@ -78,6 +78,14 @@ title: Recipes | engbert.me
 * stir briefly and cover
 * set to low heat (1.5), wait 20-25 min
 
+### Mario's Lentils:
+* 1 package lentils
+* 7 cups water
+* 6 oz tomato paste
+* 1 onion and carrots/potatoes (as desired)
+* salt, pepper, cumin, bay leaves (to taste)
+* 35 min high pressure in instant pot (also can cook chicken at same time if desired)
+
 #### Hard Boiled Eggs
 * Place eggs in boiling water for 9 minutes.
 * OR bring eggs to boil and cool after 5 minutes of boiling
