@@ -85,6 +85,7 @@ title: Recipes | engbert.me
 * 1 onion and carrots/potatoes (as desired)
 * salt, pepper, cumin, bay leaves (to taste)
 * 35 min high pressure in instant pot (also can cook chicken at same time if desired)
+* Mario adds ~1/5 cup vinegar (or some lemon juice) at the end to give it more of a sour taste
 
 #### Hard Boiled Eggs
 * Place eggs in boiling water for 9 minutes.
