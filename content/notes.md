@@ -32,6 +32,3 @@ Additionally, code is available [here](https://github.com/dangbert/college) for 
   * [ffmepg ALL documentation](https://www.ffmpeg.org/ffmpeg-all.html) (one big page)
 * [Learn FFmpeg libav the Hard Way](https://github.com/leandromoreira/ffmpeg-libav-tutorial#chapter-1---syncing-audio-and-video) (theory / deep techincal details of video codecs)
 
-
-## Books
-* [Private Kindle notes](https://github.com/dangbert/MY-RUNNER/tree/master/clippy-kindle/output)
