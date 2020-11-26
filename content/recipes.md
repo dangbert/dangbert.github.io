@@ -165,7 +165,7 @@ title: Recipes | engbert.me
   * Also I should have chopped the apples much finer (the smaller the better), mine were not soft enough after baking.
 
 ### [Pumpkin Pie](https://www.allrecipes.com/recipe/23439/perfect-pumpkin-pie/)
-  
+* [How to bake pumpkin in oven](https://oureverydaylife.com/486080-how-to-cook-a-neck-pumpkin.html)
 #### [Pumpkin Bread](https://www.onceuponachef.com/recipes/spiced-pumpkin-bread.html) [~??? cal, 1 loaf]
 * mix:
   * 7.5 oz pumpkin puree
