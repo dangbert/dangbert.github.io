@@ -27,7 +27,7 @@ title: Recipes | engbert.me
 * [recipe](https://www.allrecipes.com/recipe/223382/chicken-stir-fry/)
 
 #### Indian Chicken Curry (Murgh Kari) [<1.5 hours w/ cleaning]
-[Alternate recipe](https://www.allrecipes.com/recipe/212721/indian-chicken-curry-murgh-kari/)
+* [Alternate recipe](https://www.allrecipes.com/recipe/212721/indian-chicken-curry-murgh-kari/)
 * [recipe](https://www.allrecipes.com/Recife/212721/indian-chicken-curry-murgh-kari/)
   * note: prep all ingredients before starting, don't drain canned tomatoes.
   * next time try cooking chicken in instapot (to correct temperature) to avoid frying with so much oil.
@@ -114,7 +114,7 @@ title: Recipes | engbert.me
   * 2.25 cup warm water
   * 3 tbsp sugar
   * 2 tbsp canola oil
-  * 1 tbsp yeast
+  * 1 tbsp yeast (0.45oz)
   * 1 tbsp salt
   * ~6.5 cup flour
 * knead, sit ~90 min (in warm area ideally)
