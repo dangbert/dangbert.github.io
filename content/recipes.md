@@ -31,7 +31,6 @@ title: Recipes | engbert.me
 * [recipe](https://www.allrecipes.com/Recife/212721/indian-chicken-curry-murgh-kari/)
   * note: prep all ingredients before starting, don't drain canned tomatoes.
   * next time try cooking chicken in instapot (to correct temperature) to avoid frying with so much oil.
-* [garlic nan recipe](https://www.allrecipes.com/recipe/270860/garlic-naan/)
 * [alternative recipe to try next time](https://thefeedfeed.com/rachelgurjar/garlic-naan-with-herbs)
 
 #### Chili [3200 cal]
@@ -120,6 +119,22 @@ title: Recipes | engbert.me
 * knead, sit ~90 min (in warm area ideally)
 * knead, sit in pan ~40 min
 * bake at 375° 30-35 min
+
+#### [garlic nan](https://www.allrecipes.com/recipe/270860/garlic-naan/)
+* prepare garlic butter, mix on stove:
+  * 2 cloves minced garlic
+  * 1/2 cup butter
+* mix (in bowl):
+  * 0.5 cup warm water
+  * 1 tsp sugar
+  * 1tbsp yeast (0.45 oz)
+  * 1 tsp salt
+  * 1 tbsp of garlic butter
+  * 1/4 cup plain yogurt
+  * 2 cup bread flour
+* let dough sit 2 hours
+* ...
+
 
 #### Tim's Pizza Dough [2 medium pizza crusts ~2900 calories (+toppings)]
 * mix, shape into ball:
