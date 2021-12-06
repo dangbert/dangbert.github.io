@@ -203,6 +203,11 @@ title: Recipes | engbert.me
   * one (3") cinnamon stick = 1/2 1sp ground cinnamon
 
 ---
+## Brewing
+* [Wine from Welch's grape juice](https://youtu.be/k8VpKEY4NRw)
+  * suggested to let sit in a cool dark place for 2-4 weeks
+
+---
 ## Learn:
 * [Japanese milk bread](https://www.reddit.com/r/GifRecipes/comments/hmumjf/comment/fx7c469)
 * [new bread recipe](https://www.reddit.com/r/GifRecipes/comments/gukg2n/simple_fresh_baked_sandwich_bread_the_full_measure/)
