@@ -206,7 +206,10 @@ title: Recipes | engbert.me
 ## Brewing
 * [Wine from Welch's grape juice](https://youtu.be/k8VpKEY4NRw)
   * suggested to let sit in a cool dark place for 2-4 weeks
-
+* [easiest method requiring no equipment](https://youtu.be/nW6T9Yp6vuM). Ingredient ratio:
+  * 1 quart 100% juice (with no preservatives)
+  * 1 cup sugar
+  * 1/4 tsp yeast (bread yeast is fine)
 ---
 ## Learn:
 * [Japanese milk bread](https://www.reddit.com/r/GifRecipes/comments/hmumjf/comment/fx7c469)
