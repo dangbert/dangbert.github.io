@@ -148,6 +148,8 @@ title: Recipes | engbert.me
 * bake at 425° 13-15 min
 * let sit ~30 min
 
+#### [King Arthur Pretzels](https://www.kingarthurbaking.com/recipes/hot-buttered-soft-pretzels-recipe)
+
 #### Sourdough bread:
 
 * [bread recipe](https://www.allrecipes.com/recipe/7156/san-francisco-sourdough-bread/?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly)
