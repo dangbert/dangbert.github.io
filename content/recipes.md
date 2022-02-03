@@ -148,6 +148,9 @@ title: Recipes | engbert.me
 * bake at 425° 13-15 min
 * let sit ~30 min
 
+#### [Focaccia Bread](https://www.allrecipes.com/recipe/17918/focaccia-bread/)
+* [see also: chipotle chicken avocado melt](https://www.mashed.com/402649/copycat-panera-chipotle-chicken-avocado-melt-recipe/)
+
 #### [King Arthur Pretzels](https://www.kingarthurbaking.com/recipes/hot-buttered-soft-pretzels-recipe)
 
 #### Sourdough bread:
