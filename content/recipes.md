@@ -96,6 +96,11 @@ title: Recipes | engbert.me
 * season with olive oil, salt, pepper, oregano
 * bake for 45min at 415°
 
+#### Brussel sprouts:
+* clean and cut tips in a T shape for faster cooking
+* spread in a pan, mix in olive oil, garlic powder, and salt.
+* bake at 400° for ~30min or until sufficiently soft
+
 #### Baked Potatoes
 * wash and poke holes in potatoes with fork
 * bake whole potatoes at 400° for 40 min
