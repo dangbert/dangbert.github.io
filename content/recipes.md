@@ -98,7 +98,7 @@ title: Recipes | engbert.me
 
 #### Brussel sprouts:
 * clean and cut tips in a T shape for faster cooking
-* spread in a pan, mix in olive oil, garlic powder, and salt.
+* spread in a pan (one layer thick), mix in olive oil, garlic powder, and salt.
 * bake at 400° for ~30min or until sufficiently soft
 
 #### Baked Potatoes
