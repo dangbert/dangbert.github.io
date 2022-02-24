@@ -12,7 +12,7 @@ Additionally, code is available [here](https://github.com/dangbert/college) for 
 ## Math
 * [Calc 1 & 2](https://drive.google.com/file/d/0B39jHHEzDj3GSHA4amdJQS15YWc/view?usp=sharing&resourcekey=0-AcqcWY0hpQbtdmTfGt0KAQ)
 * [Calc 3](https://drive.google.com/file/d/0B39jHHEzDj3GZTB3S3lMdkhjTkk/view?usp=sharing&resourcekey=0-NG6NWBTPcQ1UZ4ycKxUSCw)
-* [Linear Algrebra](https://drive.google.com/file/d/0B39jHHEzDj3GTEozdUpBUkZyS1E/view?usp=sharing&resourcekey=0-rmwZYLXB_iE5V7XhaPMhcQ)
+* [Linear Algrebra](https://drive.google.com/file/d/0B39jHHEzDj3GTEozdUpBUkZyS1E/view?usp=sharing&resourcekey=0-rmwZYLXB_iE5V7XhaPMhcQ),  [Anki flashcards made from these notes](https://ankiweb.net/shared/info/1039427548)
 * [Differential Equations](https://drive.google.com/file/d/0B39jHHEzDj3Gdll5V1gydmNpUkU/view?usp=sharing&resourcekey=0-yQTnSCATK13wqvRWA3Wg6g)
 * [MATH 301 - Real Analysis](https://drive.google.com/file/d/155rxyJ2RYEcPlk8CCRptP7CSGiNJRvc7/view?usp=sharing)
 
