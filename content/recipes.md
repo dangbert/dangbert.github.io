@@ -143,7 +143,7 @@ title: Recipes | engbert.me
   * 2 cup bread flour
 * let dough sit 2 hours
 * ...
-* [alternative recipe to try next time](https://thefeedfeed.com/rachelgurjar/garlic-naan-with-herbs
+* [alternative recipe to try next time](https://thefeedfeed.com/rachelgurjar/garlic-naan-with-herbs)
 
 
 #### Tim's Pizza Dough [2 medium pizza crusts ~2900 calories (+toppings)]
