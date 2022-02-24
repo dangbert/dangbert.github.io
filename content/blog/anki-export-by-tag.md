@@ -19,5 +19,9 @@ If you have anki cards of a given tag (e.g. `math`) spread out amongst several d
 
 3. Delete the new deck if desired.  Because this is a "filtered deck" and not a normal deck, it's safe to delete the deck as the original cards will remain in the decks of origin.
 
+## Video Tutorial:
+{{< youtube MqiTgKf5LlA >}}
+
 ## See also:
 * [Anki filtered decks documentation](https://docs.ankiweb.net/filtered-decks.html)
+
