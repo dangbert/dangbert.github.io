@@ -129,7 +129,7 @@ title: Recipes | engbert.me
 * knead, sit in pan ~40 min
 * bake at 375° 30-35 min
 
-#### [garlic nan](https://www.allrecipes.com/recipe/270860/garlic-naan/)
+#### [garlic naan](https://www.allrecipes.com/recipe/270860/garlic-naan/)
 * prepare garlic butter, mix on stove:
   * 2 cloves minced garlic
   * 1/2 cup butter
