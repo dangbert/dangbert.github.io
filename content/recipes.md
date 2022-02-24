@@ -26,12 +26,16 @@ title: Recipes | engbert.me
 ### Chicken Stir-Fry
 * [recipe](https://www.allrecipes.com/recipe/223382/chicken-stir-fry/)
 
-#### Indian Chicken Curry (Murgh Kari) [<1.5 hours w/ cleaning]
-* [Alternate recipe](https://www.allrecipes.com/recipe/212721/indian-chicken-curry-murgh-kari/)
-* [recipe](https://www.allrecipes.com/Recife/212721/indian-chicken-curry-murgh-kari/)
-  * note: prep all ingredients before starting, don't drain canned tomatoes.
-  * next time try cooking chicken in instapot (to correct temperature) to avoid frying with so much oil.
-* [alternative recipe to try next time](https://thefeedfeed.com/rachelgurjar/garlic-naan-with-herbs)
+#### [Indian Chicken Curry (Murgh Kari)](https://www.allrecipes.com/recipe/212721/indian-chicken-curry-murgh-kari/) [<1.5 hours w/ cleaning]
+* brown ~2lb chicken breast (coated in 2tsp salt) in 1/2 cup hot cooking oil
+* move chicken to plate, and lower heat to medium-high
+* cook in remaining oil (~8 min): 1.5 cup chopped onion, 1 tbsp minced garlic, 1.5 tsp minced ginger root
+  * mix in: 1 tbsp water, 1 tbsp curry powder, and 1 tsp each of (ground): cumin, tumeric, corriander, cayene pepper
+  * mix in: 15oz can crushed tomatoes, 1 cup plain yogurt, 1 tbsp chopped cilantro, 1 tsp salt
+* return chicken to pan, add 1/2 cup water, and bring to boild (turning chicken to coat with sauce)
+  * sprinkle garam masala and 1 tbsp cilantro over chicken
+  * cover and simmer ~20 min (until chicken fully cooked)
+* sprinkle with lemon juice to serve
 
 #### Chili [3200 cal]
 * brown ~2.5 lb. of ground beef in pan
@@ -139,6 +143,7 @@ title: Recipes | engbert.me
   * 2 cup bread flour
 * let dough sit 2 hours
 * ...
+* [alternative recipe to try next time](https://thefeedfeed.com/rachelgurjar/garlic-naan-with-herbs
 
 
 #### Tim's Pizza Dough [2 medium pizza crusts ~2900 calories (+toppings)]
