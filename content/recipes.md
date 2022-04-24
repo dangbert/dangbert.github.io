@@ -113,7 +113,7 @@ title: Recipes | engbert.me
 #### Black beans
 * [recipe](https://www.camelliabrand.com/recipes/instant-pot-black-beans/)
   * I cooked it in instapot for 33 min on bean/chili mode
-
+* attempt 04-24-22, 1.5 cup dry black beans, 5 cups water, 50 min in instapot. [Adapted from this article](https://www.wellplated.com/instant-pot-black-beans/)
 ---
 ## Baking:
 
