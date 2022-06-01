@@ -146,17 +146,22 @@ title: Recipes | engbert.me
 * [alternative recipe to try next time](https://thefeedfeed.com/rachelgurjar/garlic-naan-with-herbs)
 
 
-#### Tim's Pizza Dough [2 medium pizza crusts ~2900 calories (+toppings)]
-* mix, shape into ball:
+#### Pizza Dough [2 medium pizza crusts ~2900 calories (+toppings)]
+* mix in a bowl, and (optionally) let sit for ~10 min
   * 1.5 cup warm water
   * 1.5 tbsp yeast
   * 1 tbsp sugar
+* add to bowl and mix/knead into a ball:
   * 0.5 tbsp salt
   * 4 tbsp olive oil
   * 4 2/3 cup flour
   * garlic powder / basil as desired
-* bake at 425° 13-15 min
-* let sit ~30 min
+* final preparation of dough:
+  * add extra flour or water while kneading if dough is too wet or dry
+  * when dough is in a nice kneaded ball, cut in half and use each portion for a pizza (roll out into a crust shape)
+  * (you can also store extra dough in the fridge for 1-3 days, or in the freezer for up to 2 weeks.
+* bake at 425° 13-15 min)
+* let sit ~20 min
 
 #### [Focaccia Bread](https://www.allrecipes.com/recipe/17918/focaccia-bread/)
 * [see also: chipotle chicken avocado melt](https://www.mashed.com/402649/copycat-panera-chipotle-chicken-avocado-melt-recipe/)
