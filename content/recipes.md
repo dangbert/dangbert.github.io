@@ -159,7 +159,7 @@ title: Recipes | engbert.me
 * final preparation of dough:
   * add extra flour or water while kneading if dough is too wet or dry
   * when dough is in a nice kneaded ball, cut in half and use each portion for a pizza (roll out into a crust shape)
-  * (you can also store extra dough in the fridge for 1-3 days, or in the freezer for up to 2 weeks.
+  * (you can also store extra dough in the fridge for 1-3 days, or in the freezer for up to 2 weeks.)
 * bake at 425° 13-15 min)
 * let sit ~20 min
 
