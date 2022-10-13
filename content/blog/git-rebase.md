@@ -52,3 +52,19 @@ git rebase --continue
 # or abort from the rebase, restoring things to how they were
 git rebase --abort
 ````
+
+## Another Example:
+
+Sometimes you may want to combine some older commits (without combining with more recent ones).  For example:
+
+before: c0 -> c1 -> c2 -> c3 (HEAD)
+````bash
+git rebase HEAD~3 -i
+````
+````txt
+# now just update file to look like:
+pick c1
+squash c2
+pick c3
+````
+after: c0 -> c1c2 -> c3 (HEAD)
