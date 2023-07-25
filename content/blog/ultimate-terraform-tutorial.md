@@ -15,18 +15,39 @@ First watch this great Terraform in 100 Seconds video:
 
 ### Installation
 Follow [these instructions](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) to install Terraform on your local machine, and test the installation worked by running `terraform --version` in your terminal.
-* To complete this entire tutorial, you may also need to [install Docker](https://docs.docker.com/engine/install/).
+* To complete part 1 of this tutorial, you may also need to [install Docker](https://docs.docker.com/engine/install/).
 ### Lab Setup
-No we'll do a quick lab which pulls and launches a Docker image locally using Terraform.  To get started clone the [starter repo here](https://github.com/dangbert/tf-tutorial) (`git clone git@github.com:dangbert/tf-tutorial.git`).  We'll use the "part1" directory for this part of the tutorial.
-* Note  this is based on this [interactive lab](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/infrastructure-as-code) from Hashicorp (the developers of Terraform).  You can optionally complete this lab in your browser instead of on your local filestystem by clicking "start interactive lab" under "Quick Start" and follow the intsructions.  However, the lab times out after about 10 minutes so it may be a bit difficult to complete the entire tutorial and the additional steps I've created below.
+Now we'll do a quick lab which pulls and launches a Docker image locally using Terraform.
 
-* Note: you can also follow this lab using your local filesystem / terminal so you can take your time (as the lab times out after 10 minutes or so).  Just see the installation directions below for Terraform.
+1. Download the [starter repo here](https://github.com/dangbert/tf-tutorial) (`git clone git@github.com:dangbert/tf-tutorial.git`).  We'll use the "part1" directory for this part of the tutorial.
+    * Note this is based on this [interactive lab](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/infrastructure-as-code) from Hashicorp (the developers of Terraform).  You can optionally complete this lab in your browser instead of on your local filesystem by clicking "start interactive lab" under "Quick Start" and follow the intsructions.  However, the lab times out after about 10 minutes so it may be a bit difficult to complete the entire tutorial and the additional steps I've created below.
 
-* After completing the initial part lab, keep it open as we'll use it again in the next section below!
+2. Take a quick look at the file `part1/main.tf` and try to take a quick guess what it does.  Then run:
+
+````bash
+cd part1
+
+# install dependencies (e.g. a Docker library for Terraform):
+#   (this is kind of like a `yarn install`)
+#   dependencies are stored in a ".terraform" folder which should be excluded from source control
+#    note: this command is safe to run as many times as you like, whenever you like!
+terraform init
+
+# Read over the description of the actions Terraform plans to take:
+terraform plan
+
+# create the infrastructure (applies the plan):
+terraform apply # (type yes when prompted)
+
+# now we should be able to see the running Docker container launched by Terraform:
+sudo docker ps
+````
+
+Now continue on reading below to understand better what's going on. Keep the repo open as we'll use it again!
 
 ### Basic Concepts
 #### Resources
->The fundamental building blocks in Terraform are "resources", which are a block of code that defines something (S3 bucket, Docker container, a piece of data fetched from an API, etc) to be created.  Resources can reference each other (e.g. the ID of a created S3 bucket might be referenced by an IAM policy resourcer later) and Terraform automatically [builds a dependency graph](https://developer.hashicorp.com/terraform/internals/graph) to understand the optimal order to create and destroy resources in your infrastructure as code.
+>The fundamental building blocks in Terraform are "resources", which are a block of code that defines something (an S3 bucket, Docker container, a piece of data fetched from an API, etc.) to be created.  Resources can reference each other (e.g. the ID of a created S3 bucket might be referenced by an IAM policy resource later) and Terraform automatically [builds a dependency graph](https://developer.hashicorp.com/terraform/internals/graph) to understand the optimal order to create and destroy resources in your infrastructure as code.
 
 ````tf
 # resources in terraform are created with the following syntax:
@@ -41,7 +62,7 @@ resource "type_of_resource" "some_unique_name" {
   }
 }
 
-# this is a more general form of:
+# the resource above is a more general form of:
 <BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>" {
   # Block body
   <IDENTIFIER> = <EXPRESSION> # Argument
@@ -60,16 +81,17 @@ resource "aws_s3_bucket" "my_bucket" {
 ````
 
  **When writing Terraform, a common workflow is to have the Terraform docs open for the resources you're creating as a critical reference.**
-Take a quick look at the [terraform docs for the aws_s3_bucket resource](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket), and see the "Argument Reference" section to see the documentation for the "bucket" and "tags" variables <ins>input</ins> to this resource.
-* And see the "Attributes Reference" section to see what fields are <ins>output</ins> by this resource (which are then possible to read in other parts of the Terraform code and pass to other resources).
 
-Once created, resources can be referenced anywhere else in the code with the syntax `<type_of_resource>.<some_unqiue_name>`.  For example `aws_s3_bucket.my_bucket` references the resource above, and `aws_s3_bucket.my_bucket.bucket` references its name specifically).  The resource type (e.g. `aws_s3_bucket`) can be thought of as a namespace; multiple instances of it can be created, but their resource names (e.g "my_bucket") must be unique.  Therefore "my_bucket"  can be thought of as a variable within the namespace `aws_s3_bucket`, and it can only be referenced by its fully qualified name (`aws_s3_bucket.my_bucket`).
+1. Take a quick look at the [terraform docs for the aws_s3_bucket resource](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket), and see the "Argument Reference" section to see the documentation for the "bucket" and "tags" <ins>input</ins> variables to this resource.
+2. Also see the "Attributes Reference" section to see what fields are outputted by this resource (which are then possible to read in other parts of the Terraform code and pass to other resources).
+
+Once created, resources can be referenced anywhere else in the code with the syntax `<type_of_resource>.<some_unique_name>`.  For example `aws_s3_bucket.my_bucket` references the resource above, and `aws_s3_bucket.my_bucket.bucket` references its name specifically).  The resource type (e.g. `aws_s3_bucket`) can be thought of as a namespace; multiple instances of it can be created, but their resource names (e.g "my_bucket") must be unique.  Therefore "my_bucket"  can be thought of as a variable within the namespace `aws_s3_bucket`, and it can only be referenced by its fully qualified name (`aws_s3_bucket.my_bucket`).
 
 #### Locals
->Terraform provides the ability to create local values for storing and re-using values (much like creating local variables in a languange like Python to store the result of operations).  Local values are useful to avoid repeating yourself, allowing you to define a "magic value" in one place, and reference it in many others.
+>Terraform provides the ability to create local values for storing and re-using values (much like creating local variables in a languange like Python to store the result of operations).  Local values are useful to avoid repeating yourself, for example by allowing you to define/compute a "magic value" in one place, and reference it in many others.
 * for more info see: [docs: local values](https://developer.hashicorp.com/terraform/language/values/locals)
 
-Add the following section anywhere towards the top of the `main.tf` file in the interactive lab from before:
+Add the following section below the "provider" block at the top of the `main.tf` file from before:
 ````tf
 locals {
   prefix = "dev_"
@@ -78,13 +100,13 @@ locals {
 ````
 
 Local values can be referenced with the syntax `local.<NAME_OF_VALUE>` e.g. `local.prefix`.
-1. Try updating the `docker_container.nginx.name` field in the lab to prepend this prefix to the name.
+1. Try updating the `docker_container.nginx.name` field in the lab to prepend this prefix to the name (for a final name of "dev_tutorial").
    * Hint: In Terraform you can use template strings like so `"hello ${local.foo} how are you?"`.  See the [docs here for reference](https://developer.hashicorp.com/terraform/language/expressions/strings#interpolation).
 2. After updating `main.tf`, run `terraform apply` to replace "docker_container.nginx".  Then run `docker ps` to verify a container is now running with the name "dev_tutorial".
 
 #### Inputs
 >You can define input values (provided by a user) in your terraform code which can then be used by the resources.
-**You can think of the set of defined inputs and outputs as the public API of your Terraform code.**
+**You can think of the set of defined inputs (and outputs) as the public API of your Terraform code.**
 
 1. Add the following (towards the top) of the `main.tf` file in the lab:
 ````tf
@@ -105,28 +127,29 @@ variable command {
   default = ["bash", "-c", "echo 'sleeping forever...' && sleep infinity"]
 }
 ````
-And update the `docker_container.nginx` resource to add the `command` input, set to the value of our new variable.
+And update the `docker_container.nginx` resource to add the `command` input, set to value `var.command`.
 * see the [docs on the docker_container resource](https://registry.terraform.io/providers/kreuzwerker/docker/3.0.2/docs/resources/container#optional) if you need help.
 
-3. And to avoid manually typing the values of our input variables each time, create the file `terraform.tfvars` with the following contents:
+3. Now to avoid manually typing the values of our input variables each time, create the file `terraform.tfvars` with the following contents:
 ````tf
 image_name = "python:3.11"
 
 # you can uncomment this to override the default var.command value:
 #command = ["bash", "-c", "echo 'sleeping for 20 min...' && sleep 20m"]
 ````
-Now run `terraform apply`, then `docker logs tutorial` (you should see "sleeping forever...") to verify everything is working!
+Now run `terraform apply`, then `docker logs dev_tutorial` (you should see "sleeping forever...") to verify everything is working!
 
-4. Optional (more advanced step): Now that `var.image_name` is configurable, "nginx" is no longer a relevant name for our docker_image and docker_container resources.  We can rename these to anything, but in Terraform when you only have one instance of a given resource type (e.g. "docker_image"), one paradigm is to literally name the resource "this".  (See [reference: naming conventions](https://www.terraform-best-practices.com/naming#resource-and-data-source-arguments)).
+4. Optional (more advanced step): Now that `var.image_name` is configurable, "nginx" is no longer a relevant name for our docker_image and docker_container resources.  We can rename these to anything, but in Terraform when you only have one instance of a given resource type (e.g. "docker_image"), one paradigm is to literally name the resource "this" (if you have no preferred name).  (See [reference: naming conventions](https://www.terraform-best-practices.com/naming#resource-and-data-source-arguments)).
     * In your code, rename `docker_image.nginx` -> `docker_image.this`, and `docker_container.nginx` -> `docker_container.this`, (remembering to also update `docker_container.this.image`) and then run `terraform plan` to preview the actions to be taken by Terraform.
-    * You'll notice that Terraform wants to destroy the old image and container resources, and recreate new ones.  This isn't necessary though to just rename the internal resource name, what if we want to keep our container running and avoid killing it? Instead we can tell terraform we renamed the resources by running `terraform state mv docker_image.nginx docker_image.this`.  Go ahead and do this, then use the same command to migrate the state of the other resource we renamed.
-    * Now run `terraform apply` and you should see "No changes. Your infrastructure matches the configuration."
+    * You'll notice that Terraform wants to destroy the old image and container resources, and recreate new ones.  This isn't necessary though to just rename the internal resource name, what if we want to keep our container running and avoid killing it? Instead we can tell terraform we renamed the resources by running `terraform state mv docker_image.nginx docker_image.this`.  Go ahead and do this, then run an adjusted version of the command command to migrate the state of the second resource we renamed.
+    * Now run `terraform apply` and you should see "No changes. Your infrastructure matches the configuration." You've successfully refactored your first piece of Terraform code!
 
 #### Outputs
->You can create output values in Terraform to be shown to the user after running `terraform apply` or whenever they run `terraform output`.  This is useful for outputting the ID's of created resources, and any information that a user, script (or another Terraform resource) may need to interface with the created resources.  For example, if you create an S3 bucket, you may want to provide the URI to the bucket for the user or a script to read so they can copy files into it with `aws cp foo.txt s3://my_bucket/`.
+>You can create output values in Terraform to be shown to the user after running `terraform apply` or whenever they run `terraform output`.  This is useful for outputting information like the IDs of created resources, and anything that a user, script (or another Terraform resource) may need to know to interface with the created resources.  For example, if you create an S3 bucket, you may want to provide the URI to the bucket for the user or a script to read so they can copy files into it with `aws cp foo.txt s3://my_bucket/`.
 * [docs: output values](https://developer.hashicorp.com/terraform/language/values/outputs)
 
-We can view all available output data for our resources with `terraform show`, but some details may be desirable to show automatically any time `terraform apply` or `terraform output`  is ran. So add the following (to the bottom) of the `main.tf` file in the lab, think about what will happen and then run `terraform apply`.
+1. We can view all available output data for our resources with `terraform show` (try it).
+2. However, some details may be desirable to show automatically any time `terraform apply` or `terraform output`  is ran. So add the following (to the bottom) of the `main.tf` file in the lab, think about what will happen and then run `terraform apply` the changes:
 ````tf
 output "container_name" {
     value = docker_container.this.name
@@ -138,17 +161,18 @@ output "inspect" {
 }
 ````
 
-`terraform apply` automatically prints the outputted values, but you can also print them anytime later with `terraform output`, or `terraform output -json` (useful for a script to programmatically read info about the created resources).
+3. After applying the changes, you'll see the output values were already printed, but you can also print them anytime later with `terraform output` (try it).  You can also run `terraform output -json` (useful for a script to programmatically read info about the created resources).
 
 #### State
  >You may notice that each time we made changes to our Terraform code, and ran `terraform apply`, Terraform was able to detect a difference with the state of the deployed infrastructure (Docker resources in this case) and suggest changes only to the updated resources.  Additionally `terraform output` is able to provide desired data about the resources.... but where is this information stored?  The state of created infrastructure is stored in a very important "terraform.tfstate" file, and used with future commands to identify existing infrastructure, and compare its state to the desired configuration in the code.
-**The terraform.tfstate is very important to keep around** don't delete it or edit it directly, you don't need to even read the file!  Just keep it around (either in version control or stored in a [remote backend](https://developer.hashicorp.com/terraform/language/settings/backends/remote) which we'll cover later) to keep `teraform` happy, allowing you to edit and destroy existing infrastructure later.
+
+**The terraform.tfstate is very important to keep around!**  Don't delete it or edit it directly, you don't need to even open the file!  Just keep it around (either in version control or stored in a [remote backend](https://developer.hashicorp.com/terraform/language/settings/backends/remote) which we'll discuss later) to keep `teraform` happy, allowing you to edit and destroy existing infrastructure later.
  * [docs: state](https://developer.hashicorp.com/terraform/language/state)
  
-Play with killing the docker container manually (`docker kill ps`), and see what happens when you run `terraform plan`.
-* Terraform automatically detects the change in state of the container, and creates a plan to launch the container again!
+1. Play with killing the docker container manually (`docker kill ps`), and see what plan Terraform wants to apply.
+    * Terraform automatically detects the change in state of the container, and creates a plan to launch the container again!
 
-We're now done with this lab, go ahead and run `terraform destroy` to destroy the created resources (teardown the Docker container etc).
+2. We're now done with part1 of this lab, you can now run `terraform destroy` to destroy the created resources (teardown the Docker container etc).
 
 ## Part 2: Terraform Modules
 >So far we've learned to create a standalone set of Terraform resources which are (somewhat) configurable via the declared input values.  But what if we wanted to create a reusable set of resources (analagous to a Python class)?  This is where Terraform modules come in.
@@ -191,7 +215,7 @@ Explanation of layout:
 * `variables.tf`: defines all <ins>inputs</ins> to the module.
 * `outputs.tf`: defines all <ins>outputs</ins> to the module.
 * `main.tf`: defines Terraform resources, which can optionally be split across additional files.
-* `modules/*`: your module can optionally define <ins>submodules</ins> which are nested modules that are additional dependencies (typically) used only by the parent module.
+* `modules/*`: your module can optionally define <ins>submodules</ins> which are nested modules that are additional dependencies (typically) used directly only by the parent module.
 * `examples/*`: optional example <ins>root modules</ins> showing how to properly use the parent module.
 
 Note: Terraform doesn't actually care what you name these files, technically everything could be in a single `foo.tf` file, but it's good practice to organize the code with this structure for clarity!
@@ -205,9 +229,9 @@ If you haven't done so already, clone the [starter repo here](https://github.com
 
 The structure should be familiar given what we learned about the standard module structure above.  And **the main conceptual difference from the code we created in part1 of the tutorial is that this module is intended to be reusable**, we can instantiate essentially infinite instances of it to create many static websites.  One advantage of resusable Terraform modules thus is the ability to create multiple instances of your infrastructure (e.g. allowing you to maintain production/staging/test/dev environments)!  Also, your application may require many instances of a given resource (e.g. several S3 buckets or ECS instances), so being able to abstract away the configuration for a given piece of instracture into a module, allows you to avoid duplicating code.
 
-2. Now lets instantiate an instances of this module and deploy a static website!
+2. Now let's instantiate an instances of this module and deploy a static website!
 
-
+TODO
 
 ## Part 3: Advanced Terraform and Beyond
 >What follows is a selection of more advanced Terraform features / uses intended as a cheatsheet and quick starting point.  Please see/search the Terraform documentation in detail for more info.
