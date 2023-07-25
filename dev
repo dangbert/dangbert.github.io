@@ -32,7 +32,7 @@ def run_command(command, bind_port=False):
         [
             'docker', 'run', '--init', '-it', '--rm', '-v',
             f'{os.getcwd()}:/src:cached'
-        ] + (['-p', '1313:1313'] if bind_port else []) + ['dannyguo-dev'] +
+        ] + (['-p', '1313:1313'] if bind_port else []) + ['engbert-dev'] +
         command
     ).returncode
 
