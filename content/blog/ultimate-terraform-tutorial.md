@@ -230,6 +230,37 @@ If you haven't done so already, clone the [starter repo here](https://github.com
 The structure should be familiar given what we learned about the standard module structure above.  And **the main conceptual difference from the code we created in part1 of the tutorial is that this module is intended to be reusable**, we can instantiate essentially infinite instances of it to create many static websites.  One advantage of resusable Terraform modules thus is the ability to create multiple instances of your infrastructure (e.g. allowing you to maintain production/staging/test/dev environments)!  Also, your application may require many instances of a given resource (e.g. several S3 buckets or ECS instances), so being able to abstract away the configuration for a given piece of instracture into a module, allows you to avoid duplicating code.
 
 2. Now let's instantiate an instances of this module and deploy a static website!
+    * I've decided to organize the "part2" directory of this repo like so:
+
+````txt
+.
+├── instances
+│   └── example
+│       └── main.tf
+└── modules
+    └── aws-s3-static-website-bucket
+        ├── LICENSE
+        ├── README.md
+        ├── main.tf
+        ├── outputs.tf
+        ├── variables.tf
+        └── www
+            ├── error.html
+            └── index.html
+````
+
+> The idea is that (resuable) modules get defined in the "modules" folder, and "root modules" (e.g. which instantiate instances of the `aws-s3-static-website-bucket` module) are defined in folders under the "instances" directory.
+
+3. Look over all the files in `modules/aws-s3-static-website-bucket`, and try to understand what it does.  Think about how an instance of it would be instantiated (based on the inputs in `variables.tf`).
+
+4. `cd instances/examples` and read over the initial provided "main.tf" file.
+    * You'll see the file defines the "aws" provider, and then starts to define an instance of the `aws-s3-static-website-bucket` module.  The "source" attribute tells Terraform the path of the module relative to the current folder, so it knows where to read its files from.
+    * Update the `module.website` resource to add the missing inputs it needs (based on what you learned in the last step).
+
+5. `terraform init && terraform apply` to test and deploy your configuration.
+    * At this point, if you haven't done so already, you will need the AWS CLI installed, with credentials configured (`aws configure`) with permisions to edit S3 buckets on your aws account.
+
+
 
 TODO
 
