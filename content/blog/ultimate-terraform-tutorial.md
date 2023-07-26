@@ -116,7 +116,7 @@ variable image_name {
 }
 ````
 And refactor `docker_image.nginx` to use `var.image_name` as the `name` input.
-Now run `terraform apply` and type "python:3.11" when prompted to provide a value for `var.image_name"`.
+Now run `terraform apply` and type "python:3.11" when prompted to provide a value for `var.image_name`.
 * After applying the changes, you'll notice the Docker container exits immediately. Let's fix this by specifying the startup command:
 
 2. Add the following to `main.tf` as well:
@@ -127,7 +127,7 @@ variable command {
   default = ["bash", "-c", "echo 'sleeping forever...' && sleep infinity"]
 }
 ````
-And update the `docker_container.nginx` resource to add the `command` input, set to value `var.command`.
+And update the `docker_container.nginx` resource to add the `command` input, set to the value `var.command`.
 * see the [docs on the docker_container resource](https://registry.terraform.io/providers/kreuzwerker/docker/3.0.2/docs/resources/container#optional) if you need help.
 
 3. Now to avoid manually typing the values of our input variables each time, create the file `terraform.tfvars` with the following contents:
@@ -176,7 +176,7 @@ output "inspect" {
 
 ## Part 2: Terraform Modules
 >So far we've learned to create a standalone set of Terraform resources which are (somewhat) configurable via the declared input values.  But what if we wanted to create a reusable set of resources (analagous to a Python class)?  This is where Terraform modules come in.
-In this part of the tutorial we'll create and configure an S3 bucket to host a static website. (based on this reference [tutorial](https://developer.hashicorp.com/terraform/tutorials/modules/module-create?in=terraform%2Fmodules)).
+In this part of the tutorial we'll create and configure an S3 bucket to host a static website. (Note: this part of the tutorial is based on this reference [tutorial](https://developer.hashicorp.com/terraform/tutorials/modules/module-create?in=terraform%2Fmodules)).
 * [docs: modules](https://developer.hashicorp.com/terraform/language/modules)
 
 What we created so far in this tutorial is actually called a <ins>root module</ins> (like how a single `.py` file is considered a Python module).  Now we'll create a reusable module that's somewhat analagous to a "package" in Python.
@@ -262,23 +262,20 @@ The structure should be familiar given what we learned about the standard module
 
 
 
-TODO
+TODO: I still need to finalize this section...
 
 ## Part 3: Advanced Terraform and Beyond
->What follows is a selection of more advanced Terraform features / uses intended as a cheatsheet and quick starting point.  Please see/search the Terraform documentation in detail for more info.
+>What follows is a selection of links to more advanced Terraform features / uses intended as a quick cheatsheet / starting point.  Please see/search the Terraform documentation in detail for more info.
 
 ### Advanced Language Features
 
-`count`, `for each` ternary operator, more advanced data types...
+* The [ternary operator](https://developer.hashicorp.com/terraform/language/expressions/conditionals) is quite useful at times.
+* The [count meta-argument](https://developer.hashicorp.com/terraform/language/meta-arguments/count) allows you to conditionally create resources when paired with the ternary operator (e.g. based on some boolean condtion), or to create an arbitrary amount of a given resources. The resulting resource(s) can then be referenced `<type_of_resource>.<some_unique_name>[some_index]`.
+* [for each meta-argument](https://developer.hashicorp.com/terraform/language/meta-arguments/for_each)
 
-### Remote Backends
+* [remote backends](https://developer.hashicorp.com/terraform/language/settings/backends/remote) allow to you store your `terraform.tfstate` in the cloud so your team can share it, rather than on local disk.  You can use Hashicorp's cloud product, or store in an S3 bucket with a dyanmodb table optionally serving as a lock.
 
-### Advanced Commands
-Renaming resources etc....
+* [refactoring guide](https://developer.hashicorp.com/terraform/language/modules/develop/refactoring) (e.g. using `teraform state mv`) etc...
 
-`terraform show`
-
-### Docs Generation
-
-
+* [terraform-docs](https://terraform-docs.io/) is a third party tool for generating docs (e.g. markdown) from your Terraform modules.
 
