@@ -43,7 +43,7 @@ title: Recipes | engbert.me
   * 2-3 onions and 2 packets of chili seasoning mix
   * two 14.5 oz can of diced tomatoes (or 32 oz of tomato sauce)
   * two 15 oz cans of kidney beans (undrained)
-* bring to boil, cover, and lower heat to let SIMMER for 10 min (stir occasionally)
+* bring to boil, cover, and lower heat to let SIMMER for 20-45 min (as desired, stir occasionally)
 
 #### 15 Bean Soup [2800 cal]
 * Hurst's 15 Bean Soup Package (20 oz)
